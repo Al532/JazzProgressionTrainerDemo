@@ -10,8 +10,8 @@
   <script>
     window.JAZZ_TRAINER_VERSION = '8';
   </script>
-  <script type="module" crossorigin src="./assets/index-ZlhlhyTv.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-fB2T0tYg.css">
+  <script type="module" crossorigin src="./assets/index-YcCgFism.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-nzeNNtAh.css">
 </head>
 <body>
   <div id="app">
@@ -130,6 +130,20 @@
             <input type="range" id="tempo-slider" min="40" max="300" value="120">
           </div>
 
+          <div class="control-row">
+            <label for="repetitions-per-key">Repetitions per key</label>
+            <select id="repetitions-per-key">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </div>
+
           <div class="control-row toggles">
             <div class="toggle-row">
               <label class="toggle-label">
@@ -210,12 +224,22 @@
                 </select>
               </label>
             </div>
+            <div class="toggle-row">
+              <label class="toggle-label">
+                <input type="checkbox" id="alternate-display-sides">
+                <span>Alternate current / next sides</span>
+              </label>
+            </div>
           </div>
 
           <details class="control-row" id="key-picker">
             <summary class="key-picker-summary">
               <span>Keys</span>
             </summary>
+            <div class="key-picker-actions">
+              <button type="button" id="select-all-keys" class="secondary-button key-picker-action">Select all</button>
+              <button type="button" id="clear-all-keys" class="secondary-button key-picker-action">Clear all</button>
+            </div>
             <div id="key-checkboxes"></div>
           </details>
         </div>
