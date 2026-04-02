@@ -1,0 +1,22 @@
+[
+  {
+    "pattern": "II V I",
+    "mode": "both"
+  },
+  {
+    "pattern": "I VI7 II V I",
+    "mode": "major"
+  },
+  {
+    "pattern": "I VI II V I",
+    "mode": "minor"
+  },
+  {
+    "pattern": "I bIIIdim7 II V I",
+    "mode": "major"
+  },
+  {
+    "pattern": "V7sus % Ilyd",
+    "mode": "major"
+  }
+]
