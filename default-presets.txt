@@ -1,4 +1,4 @@
-# presets-version: 3.8
+# presets-version: 4
 # Format:
 # pattern
 # mode | pattern
@@ -7,7 +7,7 @@
 
 | both | II V I
 Standard turnaround | C A7 D G C
-Dominants turnaround | C A7 D7 G7 C
+Dominants turnaround | both | C A7 D7 G7 C
 Minor turnaround | minor | C A D G C
 bVI turnaround | both | C % Ab7 G7 C
 Golden Age turnaround | C Ebdim7 D G7oct C
