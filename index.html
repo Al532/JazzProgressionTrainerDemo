@@ -6,8 +6,8 @@
   <title>Jazz Progression Trainer</title>
   <link rel="icon" type="image/svg+xml" href="./assets/favicon-B_scba_a.svg">
   <link rel="shortcut icon" href="./assets/favicon-B_scba_a.svg">
-  <script type="module" crossorigin src="./assets/index-BvxcihsQ.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-gyttxoIf.css">
+  <script type="module" crossorigin src="./assets/index-BEk29XOI.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BZNDYiRy.css">
 </head>
 <body>
   <div id="app">
@@ -61,6 +61,11 @@
             <div id="pattern-error" class="error hidden"></div>
           </div>
 
+          <div class="control-row pattern-preview-row">
+            <label for="pattern-preview">Selected pattern</label>
+            <div id="pattern-preview" class="pattern-preview-field" aria-live="polite"></div>
+          </div>
+
           <div class="control-row mode-row">
             <label class="mode-toggle" for="major-minor">
               <input type="checkbox" id="major-minor">
@@ -79,6 +84,11 @@
                   <p>Loading pattern help...</p>
                 </div>
               </details>
+
+              <div class="control-row">
+                <label for="pattern-name">Name (optional)</label>
+                <input type="text" id="pattern-name" aria-label="Pattern name" placeholder="e.g. Jazz turnaround" spellcheck="false">
+              </div>
 
               <div class="control-row">
                 <label for="pattern-mode">This pattern works in</label>
@@ -241,6 +251,18 @@
         </div>
       </section>
     </main>
+  </div>
+
+  <div id="preset-update-modal" class="modal-overlay hidden" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="preset-update-title">
+      <h2 id="preset-update-title">Default Presets Updated</h2>
+      <p id="preset-update-message">A new default preset list is available. What would you like to do?</p>
+      <div class="modal-actions">
+        <button type="button" id="preset-update-replace" class="modal-button modal-button-primary">Replace list (recommended)</button>
+        <button type="button" id="preset-update-merge" class="modal-button modal-button-secondary">Add new entries only</button>
+        <button type="button" id="preset-update-keep" class="modal-button modal-button-tertiary">Keep current list</button>
+      </div>
+    </div>
   </div>
 </body>
 </html>
