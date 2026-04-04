@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jazz Progression Trainer</title>
   <link rel="icon" type="image/svg+xml" href="./assets/favicon-B_scba_a.svg">
-  <link rel="shortcut icon" href="./assets/favicon-B_scba_a.svg">
-  <script type="module" crossorigin src="./assets/index-DzT4QpQN.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BZNDYiRy.css">
+  <link rel="shortcut icon" href="./assets/favicon-B_scba_a.svg">
+  <script type="module" crossorigin src="./assets/index-Q0kkXIU_.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dnui5at1.css">
 </head>
 <body>
   <div id="app">
     <header class="app-header">
+      <div class="feedback-banner">
+        <a href="mailto:alcibiade.minel@gmail.com">Share your feedback!</a>
+      </div>
       <div id="app-version"></div>
       <h1>Jazz Progression Trainer</h1>
     </header>
@@ -106,9 +109,6 @@
             <div class="preset-manager-grid">
               <button type="button" id="save-preset">Save preset</button>
               <button type="button" id="cancel-preset-edit">Cancel</button>
-              <button type="button" id="new-preset">New preset</button>
-              <button type="button" id="edit-preset">Edit preset</button>
-              <button type="button" id="delete-preset" class="danger-button">Delete preset</button>
               <button type="button" id="manage-presets">Manage presets</button>
             </div>
             <div id="preset-manager-panel" class="preset-manager-panel hidden">
@@ -118,6 +118,7 @@
               </div>
               <div id="preset-manager-list" class="preset-manager-list"></div>
               <div class="preset-manager-actions">
+                <button type="button" id="new-preset">New preset</button>
                 <button type="button" id="restore-default-presets">Restore default presets</button>
                 <button type="button" id="clear-all-presets" class="danger-button">Clear all presets</button>
               </div>
@@ -137,6 +138,13 @@
           </div>
 
           <div class="control-row">
+            <label class="toggle-label">
+              <input type="checkbox" id="double-time">
+              <span>Double time</span>
+            </label>
+          </div>
+
+          <div class="control-row">
             <label for="repetitions-per-key">Repetitions per key</label>
             <select id="repetitions-per-key">
               <option value="1" selected>1</option>
@@ -152,16 +160,6 @@
 
           <div class="control-row toggles">
             <div class="toggle-row">
-              <label class="toggle-label">
-                <input type="checkbox" id="double-time">
-                <span>Double time</span>
-              </label>
-            </div>
-            <div class="toggle-row">
-              <label class="toggle-label">
-                <input type="checkbox" id="chord-mode" checked>
-                <span>Play chords</span>
-              </label>
               <label class="toggle-label toggle-select-label" for="drums-select">
                 <span>Drums</span>
                 <select id="drums-select">
