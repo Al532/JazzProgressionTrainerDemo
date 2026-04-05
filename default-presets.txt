@@ -1,4 +1,4 @@
-# presets-version: 4.1
+# presets-version: 4.2
 # Format:
 # pattern
 # mode | pattern
@@ -12,12 +12,9 @@ Minor turnaround | minor | C A D G C
 bVI turnaround | both | C % Ab7 G7b9 C
 Golden Age turnaround | C Ebdim7 D G7oct C
 Plagal turnaround | C C7 F Bb7 C
-Modern blues turnaround | C Eb7#9 D7#9 Db7#9 C7
 Coltrane turnaround | Cmaj7 Eb7 Abmaj7 Db7 Cmaj7
-Lady Bird turnaround | Cmaj7 Ebmaj7 Abmaj7 Dbmaj7 Cmaj7
 
 Chromatic II-V | Ebm7 Ab7 Dm7 G7 C
 
 Static sus | G7sus
 Random chords | one:
-Random chords (only dominants) | one: all dominants
