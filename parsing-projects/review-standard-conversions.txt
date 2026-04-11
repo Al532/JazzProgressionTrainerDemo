@@ -1,16 +1,15 @@
-# iReal Pro swing standards for manual review
+# Swing standards for manual review
 # Format: name | mode | pattern
-# Source: parsing-projects/ireal/playlists/jazz-1460/decoded-clean.json
 # Expanded in played order using repeat_start_barline/repeat_end_barline and N1/N2 endings only
 
 # Style: Medium Swing | Time: 4/4 | Tempo: 140 | Played bars: 32
 All Of Me | major | key: C
-C6 | C6 | E13 | E13
-A13 | A7b9 | Dm7 | Dm7
-E7b9 | E7b9 | Am7 | Am7
-D13 | D13 | Dm7 | G13b9
-C6 | C6 | E13 | E13
-A13 | A7b9 | Dm7 | Dm7
+C6 | % | E7b9 | %
+A7b9 | % | Dm7 | %
+E7b13 | % | Am7 | %
+D13 | % | Dm7 | G13b9
+C6 | % | E13 | %
+A13 | A7b13 | Dm7 | %
 Fmaj7 | Fm6 | Em7 | A13
 Dm7 | G7 | C6 Ebdim7 | Dm7 G7
 
@@ -18,26 +17,26 @@ Dm7 | G7 | C6 Ebdim7 | Dm7 G7
 # Style: Medium Up Swing | Time: 4/4 | Tempo: 120 | Played bars: 36
 All The Things You Are | major | key: Ab
 Fm7 | Bbm7 | Eb7 | Abmaj7
-Dbmaj7 | Dm7 G7 | Cmaj7 | Cmaj7
+Dbmaj7 | Dm7 G7 | Cmaj7 | %
 Cm7 | Fm7 | Bb7 | Ebmaj7
-Abmaj7 | Am7 D7 | Gmaj7 | Gmaj7
-Am7 | D7 | Gmaj7 | Gmaj7
-F#m7b5 | B7b9 | Emaj7 | C7b13
+Abmaj7 | Am7 D7 | Gmaj7 | %
+Am7 | D7 | Gmaj7 | %
+F#m7b5 | B7b13 | Emaj7 | C7b13
 Fm7 | Bbm7 | Eb7 | Abmaj7
 Dbmaj7 | DbmMaj7 | Cm7 | Bdim7
-Bbm7 | Eb7 | Abmaj7 | Gm7b5 C7b9
+Bbm7 | Eb7 | Abmaj7 | Gm7b5 C7b13
 
 
 # Style: Medium Swing | Time: 4/4 | Tempo: 120 | Played bars: 32
 Autumn Leaves | minor | key: G
 Cm7 | F7 | Bbmaj7 | Ebmaj7
-Am7b5 | D7b13 | Gm6 | Gm6
+Am7b5 | D7b13 | Gm6 | %
 Cm7 | F7 | Bbmaj7 | Ebmaj7
-Am7b5 | D7b13 | Gm6 | Gm6
-Am7b5 | D7b13 | Gm6 | Gm6
+Am7b5 | D7b13 | Gm6 | %
+Am7b5 | D7b13 | Gm6 | %
 Cm7 | F7 | Bbmaj7 | Ebmaj7
 Am7b5 | D7b13 | Gm7 Gb7 | Fm7 E7
-Am7b5 | D7b13 | Gm6 | Gm6
+Am7b5 | D7b13 | Gm6 | %
 
 
 # Style: Medium Swing | Time: 4/4 | Tempo: 120 | Played bars: 33
@@ -54,37 +53,36 @@ Am7 D7 | Abm7 Db7 | C6 F7 | Em7 A7
 
 # Style: Medium Swing | Time: 4/4 | Tempo: 140 | Played bars: 32
 Stella By Starlight | major | key: Bb
-Em7b5 | A7b9 | Cm7 | F7
+Em7b5 | A7b13 | Cm7 | F7
 Fm7 | Bb7 | Ebmaj7 | Ab7
-Bb6 | Em7b5 A7b9 | Dm9 | Bbm7 Eb7
-Fmaj7 | Em7b5 | Ebmaj7#11 | D7b9
-G7b13 | G7b13 | Cm7 | Cm7
-Ab7#11 | Ab7#11 | Bbmaj7 | Bbmaj7
-Em7b5 | A7b9 | Dm7b5 | G7b9
-Cm7b5 | F13b9 | Bbmaj7 | Bbmaj7
+Bb6 | Em7b5 A7b13 | Dm9 | Bbm7 Eb7
+Fmaj7 | Em7b5 | Ebmaj7#11 | D7b13
+G7b13 | % | Cm7 | %
+Ab7#11 | % | Bbmaj7 | %
+Em7b5 | A7b13 | Dm7b5 | G7b13
+Cm7b5 | F13b9 | Bbmaj7 | %
 
 
 # Style: Medium Up Swing | Time: 4/4 | Tempo: 120 | Played bars: 33
 Take The A Train | major | key: C
-C6 | C6 | D7#11 | D7#11
+C6 | % | D7#11 | %
 Dm7 | G7 | C6 | Dm7 G7
-C6 | C6 | D7#11 | D7#11
+C6 | % | D7#11 | %
 Dm7 | G7 | Dm7 G7 | C6
-Gm7 C7 | Fmaj7 | Fmaj7 | Fmaj7
-Fmaj7 | D7 | D7 | Dm7
-G7 G7b9 | C6 | C6 | D7#11
+Gm7 C7 | Fmaj7 | % | %
+Fmaj7 | D7 | % | Dm7
+G7 G7b13 | C6 | % | D7#11
 D7#11 | Dm7 | G7 | C6
 Dm7 G7
 
 
 # Style: Medium Up Swing | Time: 4/4 | Tempo: 120 | Played bars: 32
 There Will Never Be Another You | major | key: Eb
-Eb6 | Eb6 | Dm7b5 | G7b9
-Cm7 | Cm7 | Bbm7 | Eb7
+Eb6 | % | Dm7b5 | G7b13
+Cm7 | % | Bbm7 | Eb7
 Abmaj7 | Db7#11 | Ebmaj7 | Cm7
-F7 | F7 | Fm7 | Bb7
-Eb6 | Eb6 | Dm7b5 | G7b9
-Cm7 | Cm7 | Bbm7 | Eb7
-Abmaj7 | Db7#11 | Ebmaj7 | Am7b5 D7b9
+F7 | % | Fm7 | Bb7
+Eb6 | % | Dm7b5 | G7b13
+Cm7 | % | Bbm7 | Eb7
+Abmaj7 | Db7#11 | Ebmaj7 | Am7b5 D7b13
 Ebmaj7 Ab7 | Gm7 C7 | Fm7 Bb13b9 | Eb6 Bb7
-
