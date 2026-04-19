@@ -10,22 +10,22 @@ Dbmaj7 | Dm7 G13 | Cmaj7 | %
 Cm7 | Fm7 | Bb7 | Ebmaj7
 Abmaj7 | Am7 D7 | Gmaj7 | %
 Am7 | D7 | Gmaj7 | %
-F#m7b5 | B7b13 | Emaj7 | C7b13
+F#m7b5 | B7b9b13 | Emaj7 | C7b9b13
 Fm7 | Bbm7 | Eb7 | Abmaj7
 Dbmaj7 | DbmMaj7 | Cm7 | Bdim7
-Bbm7 | Eb7 | Abmaj7 | Gm7b5 C7b13
+Bbm7 | Eb7 | Abmaj7 | Gm7b5 C7b9b13
 
 
 # Style: Medium Swing | Time: 4/4 | Tempo: 120 | Played bars: 32
 Autumn Leaves | minor | key: G
 Cm7 | F7 | Bbmaj7 | Ebmaj7
-Am7b5 | D7b13 | Gm6 | %
+Am7b5 | D7b9b13 | Gm6 | %
 Cm7 | F7 | Bbmaj7 | Ebmaj7
-Am7b5 | D7b13 | Gm6 | %
-Am7b5 | D7b13 | Gm6 | %
+Am7b5 | D7b9b13 | Gm6 | %
+Am7b5 | D7b9b13 | Gm6 | %
 Cm7 | F7 | Bbmaj7 | Ebmaj7
-Am7b5 | D7b13 | Gm7 Gb7 | Fm7 E7
-Am7b5 | D7b13 | Gm6 | %
+Am7b5 | D7b9b13 | Gm7 Gb7 | Fm7 E7
+Am7b5 | D7b9b13 | Gm6 | %
 
 
 # Style: Ballad | Time: 4/4 | Tempo: 80 | Played bars: 32
@@ -54,23 +54,23 @@ Am7 D7 | Abm7 Db7 | C6 F7 | Em7 A7
 
 # Style: Medium Swing | Time: 4/4 | Tempo: 140 | Played bars: 32
 Stella By Starlight | major | key: Bb
-Em7b5 | A7b13 | Cm7 | F7
+Em7b5 | A7b9b13 | Cm7 | F7
 Fm7 | Bb7 | Ebmaj7 | Ab7
-Bb6 | Em7b5 A7b13 | Dm9 | Bbm7 Eb7
-Fmaj7 | Em7b5 | Ebmaj7#11 | D7b13
-G7b13 | % | Cm7 | %
+Bb6 | Em7b5 A7b9b13 | Dm9 | Bbm7 Eb7
+Fmaj7 | Em7b5 | Ebmaj7#11 | D7b9b13
+G7b9b13 | % | Cm7 | %
 Ab7#11 | % | Bbmaj7 | %
-Em7b5 | A7b13 | Dm7b5 | G7b13
+Em7b5 | A7b9b13 | Dm7b5 | G7b9b13
 Cm7b5 | F13b9 | Bbmaj7 | %
 
 
 # Style: Medium Up Swing | Time: 4/4 | Tempo: 140 | Played bars: 32
 There Will Never Be Another You | major | key: Eb
-Eb6 | % | Dm7b5 | G7b13
+Eb6 | % | Dm7b5 | G7b9b13
 Cm7 | % | Bbm7 | Eb7
 Abmaj7 | Db7#11 | Ebmaj7 | Cm7
 F7 | % | Fm7 | Bb7
-Eb6 | % | Dm7b5 | G7b13
+Eb6 | % | Dm7b5 | G7b9b13
 Cm7 | % | Bbm7 | Eb7
-Abmaj7 | Db7#11 | Ebmaj7 | Am7b5 D7b13
+Abmaj7 | Db7#11 | Ebmaj7 | Am7b5 D7b9b13
 Ebmaj7 Ab7 | Gm7 C7 | Fm7 Bb13b9 | Eb6 Bb7
